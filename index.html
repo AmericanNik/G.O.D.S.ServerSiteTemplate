@@ -4,51 +4,98 @@
 <head>
   <meta charset="utf-8">
   <title>G.O.D.S.</title>
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <link rel="stylesheet" href="./assets/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
 
   <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/ece127e92a.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </head>
 
 <body>
-  <div class="navBackground">
-    <div class="navContainer title-section">
-      <span class="mainLogo">
+  <nav>
+    <div class="nav-wrapper blue darken-4">
+      <div class="newWrap">
 
-      <i src="./index.html" class="fas fa-shield-alt fa-3x logo" href="./index.html"></i>
-
-      </span>
-      <div class="navMenu">
-
-        <ul class="navList">
-          <a href="./index.html" class="navLink"><li>Home</li></a>
-          <a href="./team.html" class="navLink"><li>Our Team</li></a>
-          <a href="./groups.html" class="navLink"><li>Groups</li></a>
-          <a href="./support.html" class="navLink"><li>Support</li></a>
-          <a href="./join.html" class="navLink"><li>Join/Login</li></a>
-        </ul>
-
-      </div>
+      <a href="#!" class="brand-logo">Logo</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./groups.html">Groups</a></li>
+        <li><a href="./team.html">Our Team</a></li>
+        <li><a href="./Support.html">Support</a></li>
+        <li><a href="./join.html" class="waves-effect waves-light amber accent-4 btn">Join Now!</a></li>
+      </ul>
     </div>
-
   </div>
-<div class="intro">
-  <h1>Gathering Of Divine Souls</h1>
+  </nav>
+
+  <ul class="sidenav blue lighten-5" id="mobile-demo">
+    <li><a href="./index.html">Home</a></li>
+    <li><a href="./groups.html">Groups</a></li>
+    <li><a href="./team.html">Our Team</a></li>
+    <li><a href="./support.html">Support</a></li>
+    <li><a href-"./join.html"class="waves-effect waves-light amber accent-4 btn">Join Now!</a></li>
+  </ul>
+
+<main>
+  <div class="intro newWrap">
+  <h1 class="fadeInLeft">Groups!</h1>
 </div>
 
 
-  <div class="container">
-    <h1>GODS Server!</h1>
+  <div class="container newWrap">
+    <h1 class="fadeInLeft">G.O.D.S. Groups!!</h1>
+    <p>We have different groups who get together to play different games, and one of the most popular is D&D 5th Edition</p>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <div class="col s12 m7">
+  <h2 class="header">D&D 5th Edition</h2>
+  <div class="card horizontal animated bounceInLeft">
+    <div class="card-image">
+      <img src="./assets/images/dnd.jpeg">
+    </div>
+    <div class="card-stacked">
+      <div class="card-content">
+        <p>We have a very close knit community of avid D&D players, we play using the roll20 system and audio through our discord server. </p>
+        <p>If you enjoy D&D and want to have a good time and play, check it out and apply to join! We're always looking for good players & DM's!</p>
+      </div>
+      <div class="card-action">
+        <a href="#">Invite Link To Discord D&D</a>
+      </div>
+    </div>
+  </div>
+</div>
   </div>
 
-  <footer class="footer my-foooter">
-    <div> &copy;
-      <span class="foot">G.O.D.S. 2019</span>
-    </div>
-  </footer>
+
+</main>
+  <footer class="page-footer blue darken-4">
+           <div class="container newWrap">
+             <div class="row">
+               <div class="col l6 s12">
+                 <h5 class="white-text">Footer Content</h5>
+                 <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+               </div>
+               <div class="col l4 offset-l2 s12">
+                 <h5 class="white-text">Links</h5>
+                 <ul>
+                   <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                   <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                   <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                   <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                 </ul>
+               </div>
+             </div>
+           </div>
+           <div class="footer-copyright">
+             <div class="container">
+             © 2019 G.O.D.S.
+             <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+             </div>
+           </div>
+         </footer>
 
   <script src="./assets/script.js"></script>
 </body>
