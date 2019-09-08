@@ -58,3 +58,7 @@ main {
 .textCenter{
   text-align: center;
 }
+
+.heartColor{
+  color:red;
+}
