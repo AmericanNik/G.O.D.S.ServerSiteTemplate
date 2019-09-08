@@ -47,6 +47,10 @@ main {
   text-align: center;
 }
 
+.bioText{
+  font-size: 1.3rem;
+}
+
 .mainLogo:hover{
   font-weight:bold;
 }
